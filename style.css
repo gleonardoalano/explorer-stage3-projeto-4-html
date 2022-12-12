@@ -16,7 +16,6 @@
   --fs-body: 1.6rem;
   --fs-heading: clamp(4rem, 1rem + 5vw, 5.6rem);
   --fs-heading-sm: clamp(3rem, 0.5rem + 3vw, 4rem);
-
 }
 
 body {
@@ -27,9 +26,8 @@ body {
 
 .page {
   max-width: 33rem;
-  margin: 0 auto;
+  margin: 0 auto 3rem;
 }
-
 
 header {
   font-family: var(--ff-heading);
@@ -74,6 +72,7 @@ img {
   object-fit: cover;
   border-radius: 0.6rem;
   transition: 300ms;
+  overflow: hidden;
 }
 
 .card img:hover {
